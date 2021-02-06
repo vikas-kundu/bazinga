@@ -39,8 +39,8 @@ exports.storeCreds = function(creds){
 
 exports.serve_local_file = function(local_path,reply){
 	//https://stackoverflow.com/q/16333790/
-	var filePath = __dirname+local_path;
-	var extname = path.extname(filePath);
+	var filePath = __dirname+local_path.replace("?es6=1","");
+	var extname = path.extname(filePath).replace("?es6=1","");
     	var contentType = 'text/html';
 
     	switch (extname) {
