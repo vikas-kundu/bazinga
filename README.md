@@ -26,7 +26,7 @@ cd bazinga
 sudo chmod +x install.sh
 sudo ./install.sh
 ```
-This will install nodejs and the necessary packages for you. Now for it to function fully, you also need an API key from this [clicking here](https://iknowwhatyoudownload.com/en/api/). 
+This will install nodejs and the necessary packages for you. Now for it to function fully, you also need an API key from [clicking here](https://iknowwhatyoudownload.com/en/api/). 
 
 ![screenshot](https://raw.githubusercontent.com/vikas-kundu/bazinga/main/screenshots/apikey.png)
  This key is necessary if you wish to perform info gathering. Else for only credentials harvesting, no need for the key. Finally, save the key in the bazinga/config/options.js file and you are good to go.
@@ -113,6 +113,10 @@ Finally, if you open the file at that location, credentials will be seen in JSON
   - Add more phishing pages.
   - Add a logger and use colors.
   - Create a GUI.
+
+## LEGAL DISCLAIMER
+
+This tool is to be used for educational purposes only. Usage of bazinga for attacking targets without prior mutual consent is illegal. It is the end user responsibility to obey all applicable local, state and federal laws. Developers assume no liability for any misuse or damage caused by this program.
 
 License
 ----
