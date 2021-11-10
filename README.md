@@ -2,7 +2,7 @@
 
 Bazinga is a lightweight tool (only 2 extra npm packages ngrok and yargs required) written in Node.js that can be used for info gathering and credentials harvesting via social engineering. It can also be used to redirect multiple users to multiple websites or to serve different websites to different users. This is done via tokens embedded in the URL. This tool can:
 
-  - Gather the usual info about an IP like Geolocation and all.
+  - Gather the usual info about an IP like Geolocation and all
   - Gather juicy info about an IP like movies, games, software, etc downloaded via torrent.
   - Redirect the user to a website.
   - Be used for credentials harvesting via phishing pages.
